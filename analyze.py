@@ -6,4 +6,4 @@ def analyze_packets(pcap_file):
         print(packet.show())
 
 if __name__ == "__main__":
-    analyze_packets("../captured_packets/captured_packets.pcap")
+    analyze_packets("captured_packets.pcap")
