@@ -18,7 +18,7 @@ def start_sniffing():
     packets = sniff(filter="tcp", prn=packet_callback, count=50)
 
     # Save packets to a file
-    wrpcap("../captured_packets/captured_packets.pcap", packets)
+    wrpcap("captured_packets.pcap", packets)
 
 if __name__ == "__main__":
     start_sniffing()
