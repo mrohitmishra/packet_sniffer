@@ -11,7 +11,7 @@ This project is a packet sniffer tool that captures TCP packets, saves them to a
 
 1. Clone the repository:
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/mrohitmishra/packet_sniffer.git
     cd packet_sniffer_tool
     ```
 
