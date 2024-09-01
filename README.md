@@ -26,6 +26,7 @@ This project is a packet sniffer tool that captures TCP packets, saves them to a
 To start sniffing packets, run:
 
 ```bash
+
 python src/sniffer.py
 
 Captured packets will be saved to captured_packets/captured_packets.pcap
